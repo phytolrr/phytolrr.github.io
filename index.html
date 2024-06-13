@@ -1,1 +1,71 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Phytolrr Project Overview</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .citation {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Phytolrr Project Overview</h1>
+            <p class="lead">Phytolrr is an open-source project designed to provide comprehensive tools and resources for predicting plant-specific Leucine-rich repeat (LRR) motifs. The project is divided into two main components: a database and a Python package.</p>
+        </div>
+
+        <section id="database">
+            <h2>Database</h2>
+            <p><strong>Description:</strong> The Phytolrr database allows users to browse information in a website format. This database contains was more than 55,000 predicted LRRs containing protein sequences in various plant species, with highlighted plant-specific LRR segments. It is designed to be easily deployable using Docker.</p>
+            <p><strong>Docker Image:</strong> The Docker image for the database can be found <a href="https://hub.docker.com/repository/docker/phytolrr/phytolrr/general" target="_blank">here</a>.</p>
+        </section>
+
+        <hr>
+
+        <section id="python-package">
+            <h2>Python Package (predict-phytolrr)</h2>
+            <p><strong>Description:</strong> The <code>predict-phytolrr</code> package is a Python library for predicting LRR motifs. It provides tools and functions to facilitate accurate predictions.</p>
+            <p><strong>PyPI Package:</strong> The Python package can be accessed and installed from <a href="https://pypi.org/project/predict-phytolrr/" target="_blank">PyPI</a>.</p>
+        </section>
+
+        <hr>
+
+        <section id="open-source">
+            <h2>Open Source</h2>
+            <p>Phytolrr is open source, and all code is available on GitHub. The project repository is organized into several sub-repositories:</p>
+            <ul>
+                <li><strong>phytolrr Repository:</strong> Main project code.</li>
+                <li><strong>predict-phytolrr Repository:</strong> Source code for the Python package.</li>
+                <li><strong>database Repository:</strong> Contains the database files.</li>
+                <li><strong>docker Repository:</strong> Scripts for creating the Docker images.</li>
+            </ul>
+            <p><strong>GitHub Project URL:</strong> <a href="https://github.com/phytolrr" target="_blank">Phytolrr on GitHub</a></p>
+        </section>
+
+        <div class="citation">
+            <h2>Citation for Phyto-LRR</h2>
+            <p>If the corresponding features in the Phyto-LRR program were applied for your analysis, please cite the following paper:</p>
+            <p><strong>Chen, T.</strong> Identification and characterization of the LRR repeats in plant LRR-RLKs. <em>BMC Mol and Cell Biol</em> 22, 9 (2021). <a href="https://doi.org/10.1186/s12860-021-00344-y" target="_blank">https://doi.org/10.1186/s12860-021-00344-y</a></p>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="text-center p-3">
+            © 2024 phytolrr.com
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
